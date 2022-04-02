@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.padding{
+    padding: 0px 15%;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+
+/* ------------------------------------
+--------------------------------------
+--------------Header------------------
+--------------------------------------
+-------------------------------------- */
+
+
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+header div.logo{
+    width: 50%;
+    align-items: center;
+    align-content: flex-start;
+    display: flex;
+}
+header div.logo img{
+    width: 100px;
+}
+header ul{
+    display: flex;
+    width: 50%;
+    align-content: center;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0px 30px;
+}
+header ul li a{
+    color: darkgray;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: end;
+    border-bottom: 5px solid transparent;
+}
+header ul li a:hover{
+    color: black;
+    font-weight: bold;
+    border-bottom: 5px solid green;
+    
+}
+
+
+
+/* -----------------------------------
+--------------------------------------
+--------------Content------------------
+--------------------------------------
+-------------------------------------- */
+
+div.main{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: stretch;
+    margin: 50px auto;
+}
+div.box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+div.box1 h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 30px;
+    color: gold;
+    font-weight: normal;
+}
+h2{
+    font-size: 45px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+div.box2{
+    width: 50%;
+}
+
+div.box1 input{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+div.box1 button{
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 1%;
+}
+
+div.box2 img{
+    width: 500px;
+    background-color: whitesmoke;
+}
+div.reason{
+    text-align: center;
+    width: 100%;
+
+}
+div.reason h3{
+    margin: 20px auto;
+}
+div.reason h2{
+    margin: 10px auto;
+}
+.box3{
+    width: 100%;
+    align-content: center;
+    align-items: stretch;
+    text-align: center;    
+
+}
+.main a.threebox{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    border-bottom: 5px solid transparent;
+}
+.main a.threebox:hover{
+    background-color: white;
+    border-bottom: 5px solid green;
+    box-shadow: 00px 5px 10px gray;
+}
+.main a.threebox:active{
+    background-color: white;
+    border-bottom: 2px solid green;
+    box-shadow: 00px 2px 2px gray;
+}
+.box3 img{
+    width: 100px;
+    text-align: center;
+}
+.box3 h2{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.box3 ins{
+    text-decoration: none;
+}
+.listmenu .box3{
+    background-color: whitesmoke;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0px 10px;
+    align-items: center;
+    align-content: center;
+    border-bottom: 5px solid transparent;
+}
+.listmenu .box3:hover > img{
+    opacity: 0.8;
+}
+.listmenu .box3:hover{
+    box-shadow: 0px 0px 10px gray;
+    border-bottom: 5px solid green;
+    background-color: white;
+}
+
+.listmenu .box3 img{
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    padding: 20px 10px;
+}
+div.main div.list{
+    display: flex;
+    flex: 1;
+}
+div.main div.list ul{
+    width: 82%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+div.main div.list ul li{
+    list-style: none;
+    display: block;
+}
+div.main div.list ul li a{
+    text-decoration: none;
+    padding: 15px; 
+    border-left: 5px solid lightgray;
+    display: block;   
+    color: gray;
+}
+div.main div.list ul li a:hover{
+    border-left: 5px solid orange;
+    background-color: lightgray;
+    width: 100%;
+}
+
+div.secondlast .box3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    align-content: stretch;
+    margin: 10px;
+    padding: 25px;
+}
+.secondlast img{
+    width: 100%;
+}
+.secondlast a{
+    text-decoration: none;
+    font-size: 25px;
+    color: gold;
+    text-align: start;
+    margin: 20px 0px;
+    border-bottom: 5px solid transparent;
+}
+.secondlast a:hover{
+    color: green;
+    border-bottom: 5px solid gray;
+    transition: 0.5s;
+
+}
+
+div.Subscription form{
+    width: 50%;
+    margin: 25px auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+
+}
+div.Subscription form input{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+div.Subscription form input:focus{
+    border: none;    
+}
+div.Subscription form input:active{
+    border: none;    
+}
+div.Subscription form button{
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: green;
+    float: right;
+    color: white;
+}
+div.Subscription form button:focus{
+    box-shadow: 0px 0px 5px black;
+
+}
+
+/* --------------------------------------
+--------------------------------------
+--------------Footer------------------
+--------------------------------------
+-------------------------------------- */
+
+
+
+footer{
+    margin-top: 150px;
+    padding: 100px 15%;
+    background-color: antiquewhite;
+    display: flex;
+    width: 70%;
+}
+footer img{
+    width: 100px;
+    padding: 10px 0px 20px 0px;
+}
+footer div.flexmain{
+    flex: 2 !important;
+    margin: 5px;
+    padding: 0px 20px;
+    
+}
+footer ul{
+    width: 100%;
+    font-size: 15px;
+}
+footer ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+footer h3{
+    padding: 25px 0px;
+}
+footer p{
+    padding: 0px 0px 20px 0px;
+}
+footer div.flex{
+    flex: 1;
+    margin: 5px;
+    padding: 0px 10px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer button{
+    padding: 10px 15px;
+     background-color: green;
+     color: white;
+     margin-right: 10px;
+}
